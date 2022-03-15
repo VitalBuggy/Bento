@@ -11,10 +11,10 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Vital',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
@@ -23,11 +23,11 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Layout
-  bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+  bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-  weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+  weatherKey: '801363391dc8d90282fb6bc6f24b37de', // Write here your API Key
+  weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -61,7 +61,7 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com',
     },
     {
       id: '3',
@@ -78,14 +78,14 @@ const CONFIG = {
     {
       id: '5',
       name: 'Reddit',
-      icon: 'glasses',
+      icon: 'reddit',
       link: 'https://reddit.com',
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'YouTube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://www.youtube.com/',
     },
   ],
 
@@ -135,94 +135,94 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'music',
+      icon: 'code',
       id: '1',
       links: [
         {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'HackTheBox',
+          link: 'https://www.hackthebox.com/',
         },
         {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'LeetCode',
+          link: 'https://leetcode.com/',
         },
         {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'TryHackMe',
+          link: 'https://tryhackme.com/dashboard',
         },
         {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'CodeWars',
+          link: 'https://codewars.com/',
         },
       ],
     },
     {
-      icon: 'coffee',
+      icon: 'book',
       id: '2',
       links: [
         {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
+          name: 'C++ Reference',
+          link: '',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'Django Docs',
+          link: '',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
+          name: 'Oracle Java',
+          link: '',
         },
         {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'Mozilla CDN',
+          link: '',
         },
       ],
-    },
+    }
   ],
 
   // Second Links Container
   secondListsContainer: [
     {
-      icon: 'binary',
+      icon: 'graduation-cap',
       id: '1',
       links: [
         {
-          name: 'Spotify',
-          link: 'https://www.spotify.com',
+          name: 'Modern Javascript',
+          link: 'https://javascript.info/',
         },
         {
-          name: 'Reddit',
-          link: 'https://www.reddit.com',
+          name: 'Refactoring Guru',
+          link: 'https://refactoring.guru',
         },
         {
-          name: 'Hashnode',
-          link: 'https://www.hashnode.com',
+          name: 'Learn OpenGL',
+          link: 'https://learnopengl.com/',
         },
         {
-          name: 'Pocket',
-          link: 'https://www.pocket.com',
+          name: 'Kernel Programming',
+          link: 'https://mwatler.github.io/unx511/The%20Linux%20Programming%20Interface%20-%20A%20Linux%20and%20UNIX%20System%20Programming%20Handbook.pdf',
         },
       ],
     },
     {
-      icon: 'github',
+      icon: 'message-circle',
       id: '2',
       links: [
         {
-          name: 'Front',
-          link: 'https://www.reddit.com/r/Frontend/',
+          name: 'Github',
+          link: 'https://github.com/',
         },
         {
-          name: 'Rust',
-          link: 'https://www.reddit.com/r/rust/',
+          name: 'Gitlab',
+          link: 'https://gitlab.informatics.ru/',
         },
         {
-          name: 'Go',
-          link: 'https://www.reddit.com/r/golang/',
+          name: 'YouTube',
+          link: 'https://www.youtube.com/',
         },
         {
-          name: 'Repos',
-          link: 'https://github.com/migueravila',
+          name: 'Reddit',
+          link: 'https://www.reddit.com/',
         },
       ],
     },
