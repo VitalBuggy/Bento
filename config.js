@@ -162,19 +162,19 @@ const CONFIG = {
       links: [
         {
           name: 'C++ Reference',
-          link: '',
+          link: 'https://en.cppreference.com/w/',
         },
         {
           name: 'Django Docs',
-          link: '',
+          link: 'https://docs.djangoproject.com/en/4.0/',
         },
         {
           name: 'Oracle Java',
-          link: '',
+          link: 'https://docs.oracle.com/en/java/javase/17/',
         },
         {
-          name: 'Mozilla CDN',
-          link: '',
+          name: 'Mozilla MDN',
+          link: 'https://developer.mozilla.org/en-US/',
         },
       ],
     }
@@ -201,7 +201,7 @@ const CONFIG = {
         {
           name: 'Kernel Programming',
           link: 'https://mwatler.github.io/unx511/The%20Linux%20Programming%20Interface%20-%20A%20Linux%20and%20UNIX%20System%20Programming%20Handbook.pdf',
-        },
+        }
       ],
     },
     {
