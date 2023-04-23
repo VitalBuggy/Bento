@@ -45,7 +45,7 @@
 
   /* Fonts Color */
   --fg: #ebdbb2; /* Foreground color */
-  --sfg: #a89984; /* Secondary Foreground color */
+  --sfg: #ebdbb2; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
